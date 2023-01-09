@@ -1,0 +1,8 @@
+[project]
+name = "bcrypt-cli"
+version = "0.1.0"
+dependencies = [
+    "bcrypt",
+]
+[project.scripts]
+bcrypt-cli = "bcrypt_cli:main"
